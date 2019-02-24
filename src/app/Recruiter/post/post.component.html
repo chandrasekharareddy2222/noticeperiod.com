@@ -1,0 +1,267 @@
+<!-- <div class="container">
+  <div class="row">
+    <div>
+      <div class="col-md-6">
+        <mat-form-field>
+          <input matInput placeholder="Input">
+        </mat-form-field>
+      </div>
+      <div class="col-md-6">
+        <mat-form-field>
+          <input matInput placeholder="Input">
+        </mat-form-field>
+      </div>
+    </div>
+  </div>
+  <p>
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="Address">1600 Amphitheatre Pkwy</textarea>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <textarea matInput placeholder="Address 2"></textarea>
+    </mat-form-field>
+  </p> -->
+
+<div class="container" style="background-color:white">
+
+  <form class="example-form">
+    <table class="example-full-width" cellspacing="0">
+      <tr>
+        <td>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Job Title">
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="Select Industry">
+              <mat-option value="Software">Software</mat-option>
+              <mat-option value="Account">Account</mat-option>
+              <mat-option value="Banking">Banking</mat-option>
+              <mat-option value="Hardware">Hardware</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+    <table class="example-full-width" cellspacing="0">
+      <tr>
+        <td>
+          <!-- <mat-form-field class="example-full-width">
+            <input matInput placeholder="City">
+          </mat-form-field> -->
+          <mat-form-field>
+            <mat-select placeholder="Functional Area">
+              <mat-option value="Software">Software</mat-option>
+              <mat-option value="Account">Account</mat-option>
+              <mat-option value="Banking">Banking</mat-option>
+              <mat-option value="Hardware">Hardware</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+        <td>
+          <!-- <mat-form-field class="example-full-width">
+            <input matInput placeholder="State">
+          </mat-form-field> -->
+          <mat-form-field>
+            <mat-select placeholder="Location">
+              <mat-option value="Software">Software</mat-option>
+              <mat-option value="Account">Account</mat-option>
+              <mat-option value="Banking">Banking</mat-option>
+              <mat-option value="Hardware">Hardware</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <h2 class="example-h2">JOB TYPE</h2>
+
+      <section class="example-section">
+        <mat-checkbox class="example-margin">Full time</mat-checkbox>
+        <mat-checkbox class="example-margin">Part time</mat-checkbox>
+        <mat-checkbox class="example-margin">Intern</mat-checkbox>
+        <mat-checkbox class="example-margin">Gig</mat-checkbox>
+        <mat-checkbox class="example-margin">Contract</mat-checkbox>
+      </section>
+      <tr>
+        <td>
+          <h2 class="example-h2">QUALIFICATION</h2>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Qualification">
+          </mat-form-field>
+        </td>
+      </tr>
+      <h2>Experience</h2>
+      <tr>
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="type">
+              <mat-option value="fresher">fresher</mat-option>
+              <mat-option value="experience">experience</mat-option>
+              <mat-option value="Banking">Banking</mat-option>
+              <mat-option value="Hardware">Hardware</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="Years">
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+              <mat-option value="4">4</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <h2>Salary</h2>
+      <tr>
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="lakhs">
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+              <mat-option value="4">4</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="lakhs">
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+              <mat-option value="4">4</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <h2>Date of joining</h2>
+      <tr>
+        <mat-radio-group>
+          <mat-radio-button value="1">Immedialte</mat-radio-button>
+
+        </mat-radio-group>
+        <td>
+          <mat-form-field>
+            <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <h2> Short job description</h2>
+        <mat-form-field class="example-full-width">
+          <textarea matInput placeholder="job description"></textarea>
+        </mat-form-field>
+      </tr>
+      <tr>
+        <h2>Job Briefing</h2>
+        <mat-form-field class="example-full-width">
+          <textarea matInput placeholder="job Briefing"></textarea>
+        </mat-form-field>
+      </tr>
+      <h2>Job skills</h2>
+      <tr>
+        <td>
+          <ng-multiselect-dropdown [placeholder]="'custom placeholder'" [data]="dropdownList"
+            [(ngModel)]="selectedItems" name="selected" [settings]="dropdownSettings" (onSelect)="onItemSelect($event)"
+            (onSelectAll)="onSelectAll($event)">
+          </ng-multiselect-dropdown>
+        </td>
+
+      </tr>
+      <h2> JOB DESCRIPTION FILE</h2>
+      <tr>
+        <td>
+          <input ng2FileSelect type="file" [uploader]="uploader" />
+        </td>
+      </tr>
+      <h2> INTERVIEW DETAILS</h2>
+      <tr>
+        <mat-checkbox>Walk In</mat-checkbox>
+      </tr>
+      <h2>Time</h2>
+      <tr>
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="lakhs">
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+              <mat-option value="4">4</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="lakhs">
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+              <mat-option value="4">4</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <h2>DATE</h2>
+      <tr>
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="lakhs">
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+              <mat-option value="4">4</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+
+        <td>
+          <mat-form-field>
+            <mat-select placeholder="lakhs">
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+              <mat-option value="4">4</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <h2>VENUE</h2>
+        <mat-form-field class="example-full-width">
+          <textarea matInput placeholder="job Briefing"></textarea>
+        </mat-form-field>
+      </tr>
+      <tr>
+        <h2>GENDER PREFERENCE</h2>
+        <mat-checkbox>MALE</mat-checkbox>
+        <mat-checkbox>FEMALE</mat-checkbox>
+      </tr>
+      <tr>
+        <h2>DIFFERENTLY ABLED CANDIDATES</h2>
+        <mat-radio-group>
+          <mat-radio-button value="1">prefer differently abled candidates</mat-radio-button>
+        </mat-radio-group>
+      </tr>
+      <tr>
+        <td>
+          <mat-checkbox>PREMIUM JOB</mat-checkbox>
+        </td>
+        <td>
+          <button mat-button>POST JOB</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
+
+
+<!-- Copyright 2018 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

@@ -54,6 +54,9 @@ import { PostComponent } from './post/post.component';
 import { PostingsComponent } from './postings/postings.component';
 import { ChatComponent } from './chat/chat.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
+import { FileUploadModule } from 'ng2-file-upload';
+
 
 
 export function highlightJsFactory(): any {
@@ -65,7 +68,9 @@ export function highlightJsFactory(): any {
   imports: [
     CommonModule,
     FlexLayoutModule,
+    NgMultiSelectDropDownModule.forRoot(),
     MatButtonModule,
+    FileUploadModule,
     MatIconModule,
     MatAutocompleteModule,
     MatBadgeModule,
