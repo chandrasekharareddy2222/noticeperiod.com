@@ -1,3 +1,1087 @@
-<p>
-  postings works!
+<section class="container-fluid dashboard_main_ body">
+  <div class="row">
+
+
+      <div class="h-100 dashboard_main_container mb-5">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <h6 class="text-uppercase">
+              amazon
+            </h6>
+            <h4 class="text-uppercase">
+              amazon india pvt ltd
+            </h4>
+            <p class="py-3 w-75">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magni veritatis laboriosam rerum, nisi consectetur beatae, distinctio commodi provident quos exercitationem ratione recusandae ipsa veniam, dolor delectus neque quibusdam voluptatibus?
+            </p>
+
+            <div>
+                <mat-chip-list class="company_name_details_chips_">
+                    <mat-chip>
+                      <p> Applicants </p>
+                      <span>28</span>
+                    </mat-chip>
+
+                    <mat-chip>
+                      <p> Resumes Saved </p>
+                      <span>82</span>
+                    </mat-chip>
+
+                    <mat-chip>
+                      <p> Jobs Posted </p>
+                      <span>80</span>
+                    </mat-chip>
+
+                    <mat-chip>
+                      <p> My JD's </p>
+                      <span>28</span>
+                    </mat-chip>
+
+                  </mat-chip-list>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-12 col-md-2">
+                  <button mat-raised-button class="text-uppercase" style="border: 1px solid #4F4F4F; color: #4F4F4F;">Post a job</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-3">
+
+          </div>
+        </div>
+      </div>
+
+
+        <div class="col-12">
+          <div class="row align-items-center applied_role_chips">
+
+
+          <div class="nav_pills_top_names navpills_position_head pr-3">
+              <h4> Applied Candidates (128) </h4>
+          </div>
+
+          <div class="navpills_position">
+              <button mat-raised-button matBadge="8" matBadgePosition="after" matBadgeColor="accent">
+                Developer
+              </button>
+
+              <button mat-raised-button matBadge="28" matBadgePosition="after" matBadgeColor="accent">
+                Sr. Developer
+              </button>
+
+              <button mat-raised-button matBadge="82" matBadgePosition="after" matBadgeColor="accent">
+                Analysts
+              </button>
+
+              <button mat-raised-button matBadge="82" matBadgePosition="after" matBadgeColor="accent">
+                Designers
+              </button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-12 my-4" style="background: #fff;">
+        <div class="row pt-3">
+          <div class="col-12 col-md-3">
+            <mat-form-field>
+              <mat-select placeholder="Notice Period">
+                <mat-option *ngFor="let food of foods" [value]="food.value">
+                  {{food.viewValue}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-3">
+            <mat-form-field>
+              <mat-select placeholder="Experience">
+                <mat-option *ngFor="let food of foods" [value]="food.value">
+                  {{food.viewValue}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-3">
+            <mat-form-field>
+              <mat-select placeholder="Skills Match">
+                <mat-option *ngFor="let food of foods" [value]="food.value">
+                  {{food.viewValue}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-3">
+            <mat-form-field>
+              <mat-select placeholder="Rating">
+                <mat-option *ngFor="let food of foods" [value]="food.value">
+                  {{food.viewValue}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 mb-4 text-uppercase">
+        <mat-chip-list class="sort_opptions_list">
+          <mat-chip>
+            All <span class="pl-4">28</span>
+          </mat-chip>
+          <mat-chip class="active">
+            NP Sort <span class="pl-4">28</span>
+          </mat-chip>
+          <mat-chip>
+            Unread <span class="pl-4">28</span>
+          </mat-chip>
+          <mat-chip>
+            Shortlisted <span class="pl-4">28</span>
+          </mat-chip>
+          <mat-chip>
+            Rejected <span class="pl-4">28</span>
+          </mat-chip>
+        </mat-chip-list>
+      </div>
+
+
+    <div class="h-100 dashboard_main_container">
+
+      <div class="col-12 pb-5 mb-5 border-bottom">
+        <div class="row align-items-center">
+          <div class="col-1">
+            <div class="row align-items-center pb-3">
+              <div class="col-12">
+                <img src="../../../assets/ico.png" alt="Ico">
+              </div>
+              <div class="col-12">
+                <div class="text-center" style="color: #F7503F;">
+                  <b> 4.5 </b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-11">
+            <div class="row align-items-center justify-content-between pb-3">
+              <div class="col-auto mr-auto">
+                <h4>
+                  Rishi Prabhat
+                </h4>
+                <p>
+                  <b> 20, Male </b>
+                </p>
+              </div>
+
+              <div class="col-8 ml-auto">
+
+
+                <mat-chip-list class="employee_skills_chips_">
+                  <mat-chip style="">
+                    <p style=""> Angular </p>
+                    <span class="" style="">7 Yrs</span>
+                  </mat-chip>
+
+                  <mat-chip style="">
+                    <p style=""> Skills </p>
+                    <span class="" style="">82%</span>
+                  </mat-chip>
+
+                  <mat-chip style="">
+                    <p style=""> Joining </p>
+                    <span class="" style="">70 Days</span>
+                  </mat-chip>
+                </mat-chip-list>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="offset-1 col-9">
+            <div class="row">
+              <div class="col-12 pb-2">
+                <div class="location_date">
+                  <b> Hyderabad </b>
+                </div>
+                <div class="location_date">
+                  <b> 22nd Jan </b>
+                </div>
+              </div>
+
+              <div class="col-12 pb-3 pt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos cum aliquam sunt quos. Libero
+                accusantium, blanditiis nemo quidem debitis cum odit natus ut aperiam inventore rerum, delectus
+                suscipit porro!
+              </div>
+
+              <div class="col-12">
+                <div class="row">
+
+                  <div class="col-12">
+                    <div class="course_names_" style="color: #F7503F;">
+                      <b> Angular </b>
+                    </div>
+                    <div class="course_names_" style="color: #EAEFFB;">
+                      <b> C </b>
+                    </div>
+                    <div class="course_names_" style="color: #EAEFFB;">
+                      <b> HTML </b>
+                    </div>
+                    <div class="course_names_" style="color: #F7503F;">
+                      <b> CSS </b>
+                    </div>
+                    <div class="course_names_" style="color: #F7503F;">
+                      <b> React </b>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-12 py-3">
+                <div class="row">
+                  <div class="col-12">
+                      <mat-form-field class="example-chip-list w-100">
+                        <mat-chip-list #chipList>
+                          <mat-chip
+                            *ngFor="let fruit of fruits"
+                            [selectable]="selectable"
+                            [removable]="removable"
+                            (removed)="remove(fruit)">
+                            {{fruit}}
+                            <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+                          </mat-chip>
+                          <input
+                            placeholder="Feedback chips"
+                            #fruitInput
+                            [formControl]="fruitCtrl"
+                            [matAutocomplete]="auto"
+                            [matChipInputFor]="chipList"
+                            [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+                            [matChipInputAddOnBlur]="addOnBlur"
+                            (matChipInputTokenEnd)="add($event)">
+                        </mat-chip-list>
+                        <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+                          <mat-option *ngFor="let fruit of filteredFruits | async" [value]="fruit">
+                            {{fruit}}
+                          </mat-option>
+                        </mat-autocomplete>
+                      </mat-form-field>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 py-3">
+                <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b>View Resume</b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Notes </b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Contact </b>
+                    </div>
+                    <div class="resume_sec_ text-danger">
+                      <b> Tags </b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Chat </b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Cover Letter </b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Rate Me </b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-2">
+            <div class="row ml-auto">
+              <div class="col-12">
+                <button mat-raised-button style="border: 1px solid #4F4F4F; color: #4F4F4F;">View Profile</button>
+              </div>
+              <div class="col-12 py-3">
+                <button mat-raised-button style="border: 1px solid #F7503F; color: #F7503F;">Shortlist</button>
+              </div>
+              <div class="col-12">
+                <button mat-raised-button style="border: 1px solid #4F4F4F; color: #4F4F4F;"> Invite</button>
+              </div>
+              <div class="col-12 text-center py-2">
+                <!-- <a class="text-danger">Share</a> -->
+                <button class="text-danger" mat-raised-button style="border: none !important; box-shadow: unset !important;">Reject</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <hr class="my-5"> -->
+
+
+      <div class="col-12">
+        <div class="row align-items-center">
+          <div class="col-1">
+            <div class="row align-items-center pb-3">
+              <div class="col-12">
+                <img src="../../../assets/ico.png" alt="Ico">
+              </div>
+              <div class="col-12">
+                <div class="text-center" style="color: #F7503F;">
+                  <b> 4.5 </b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-11">
+            <div class="row align-items-center justify-content-between pb-3">
+              <div class="col-auto mr-auto">
+                <h4>
+                  Rishi Prabhat
+                </h4>
+                <p>
+                  <b> 20, Male </b>
+                </p>
+              </div>
+
+              <div class="col-8 ml-auto">
+
+                  <mat-chip-list class="employee_skills_chips_">
+                    <mat-chip style="">
+                      <p style=""> Angular </p>
+                      <span class="" style="">7 Yrs</span>
+                    </mat-chip>
+
+                    <mat-chip style="">
+                      <p style=""> Skills </p>
+                      <span class="" style="">82%</span>
+                    </mat-chip>
+
+                    <mat-chip style="">
+                      <p style=""> Joining </p>
+                      <span class="" style="">70 Days</span>
+                    </mat-chip>
+                  </mat-chip-list>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="offset-1 col-9">
+            <div class="row">
+              <div class="col-12 pb-2">
+                <div class="location_date">
+                  <b> Hyderabad </b>
+                </div>
+                <div class="location_date">
+                  <b> 22nd Jan </b>
+                </div>
+              </div>
+
+              <div class="col-12 pb-3 pt-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos cum aliquam sunt quos. Libero
+                accusantium, blanditiis nemo quidem debitis cum odit natus ut aperiam inventore rerum, delectus
+                suscipit porro!
+              </div>
+              <div class="col-12">
+                <div class="row">
+
+                  <div class="col-12">
+                    <div class="course_names_" style="color: #F7503F;">
+                      <b> Angular </b>
+                    </div>
+                    <div class="course_names_" style="color: #EAEFFB;">
+                      <b> C </b>
+                    </div>
+                    <div class="course_names_" style="color: #EAEFFB;">
+                      <b> HTML </b>
+                    </div>
+                    <div class="course_names_" style="color: #F7503F;">
+                      <b> CSS </b>
+                    </div>
+                    <div class="course_names_" style="color: #F7503F;">
+                      <b> React </b>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+
+              <div class="col-12 py-3">
+                <div class="row">
+                  <div class="col-12">
+                      <mat-form-field class="example-chip-list w-100">
+                        <mat-chip-list #chipList>
+                          <mat-chip
+                            *ngFor="let fruit of fruits"
+                            [selectable]="selectable"
+                            [removable]="removable"
+                            (removed)="remove(fruit)">
+                            {{fruit}}
+                            <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+                          </mat-chip>
+                          <input
+                            placeholder="Feedback chips-"
+                            #fruitInput
+                            [formControl]="fruitCtrl"
+                            [matAutocomplete]="auto"
+                            [matChipInputFor]="chipList"
+                            [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+                            [matChipInputAddOnBlur]="addOnBlur"
+                            (matChipInputTokenEnd)="add($event)">
+                        </mat-chip-list>
+                        <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+                          <mat-option *ngFor="let fruit of filteredFruits | async" [value]="fruit">
+                            {{fruit}}
+                          </mat-option>
+                        </mat-autocomplete>
+                      </mat-form-field>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b>View Resume</b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Notes </b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Contact </b>
+                    </div>
+                    <div class="resume_sec_ text-danger">
+                      <b> Tags </b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Chat </b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Cover Letter </b>
+                    </div>
+                    <div class="resume_sec_" style="color: #9c9c9c;">
+                      <b> Rate Me </b>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+              <div class="row ml-auto">
+                  <div class="col-12">
+                    <button mat-raised-button style="border: 1px solid #4F4F4F; color: #4F4F4F;">View Profile</button>
+                  </div>
+                  <div class="col-12 py-3">
+                    <button mat-raised-button style="border: 1px solid #F7503F; color: #F7503F;">Shortlist</button>
+                  </div>
+                  <div class="col-12">
+                    <button mat-raised-button style="border: 1px solid #4F4F4F; color: #4F4F4F;"> Invite</button>
+                  </div>
+                  <div class="col-12 text-center py-2">
+                    <!-- <a class="text-danger">Share</a> -->
+                    <button class="text-danger" mat-raised-button style="border: none !important; box-shadow: unset !important;">Reject</button>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class="py-5">
+  Recruiter Dashboard screen
 </p>
+
+
+
+
+
+<section class="container-fluid dashboard_main_ body">
+    <div class="row">
+
+
+
+
+        <div class="col-12">
+          <div class="row align-items-center applied_role_chips">
+
+
+            <div class="nav_pills_top_names navpills_position_head pr-3">
+                <h4> Posts </h4>
+            </div>
+
+            <div class="navpills_position">
+                <button mat-raised-button matBadge="8" matBadgePosition="after" matBadgeColor="accent">
+                  Developer
+                </button>
+
+                <button mat-raised-button matBadge="28" matBadgePosition="after" matBadgeColor="accent">
+                  Sr. Developer
+                </button>
+
+                <button mat-raised-button matBadge="82" matBadgePosition="after" matBadgeColor="accent">
+                  Analysts
+                </button>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="h-100 dashboard_main_container my-5">
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <h6 class="text-uppercase">
+                amazon
+              </h6>
+              <h4 class="text-uppercase">
+                amazon india pvt ltd
+              </h4>
+              <p class="py-3 w-75">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magni veritatis laboriosam rerum, nisi consectetur beatae, distinctio commodi provident quos exercitationem ratione recusandae ipsa veniam, dolor delectus neque quibusdam voluptatibus?
+              </p>
+
+              <div>
+                  <mat-chip-list class="company_name_details_chips_">
+                      <mat-chip>
+                        <p> Applicants </p>
+                        <span>28</span>
+                      </mat-chip>
+
+                      <mat-chip>
+                        <p> Resumes Saved </p>
+                        <span>82</span>
+                      </mat-chip>
+
+                    </mat-chip-list>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-12 col-md-2">
+                    <button mat-raised-button class="text-uppercase" style="border: 1px solid #4F4F4F; color: #4F4F4F;">Show Jobs</button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-3">
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-12 my-4" style="background: #fff;">
+          <div class="row pt-3">
+            <div class="col-12 col-md-3">
+              <mat-form-field>
+                <mat-select placeholder="Notice Period">
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-12 col-md-3">
+              <mat-form-field>
+                <mat-select placeholder="Experience">
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-12 col-md-3">
+              <mat-form-field>
+                <mat-select placeholder="Skills Match">
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-12 col-md-3">
+              <mat-form-field>
+                <mat-select placeholder="Rating">
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mb-4 text-uppercase">
+          <mat-chip-list class="sort_opptions_list">
+            <mat-chip>
+              All <span class="pl-4">28</span>
+            </mat-chip>
+            <mat-chip class="active">
+              NP Sort <span class="pl-4">28</span>
+            </mat-chip>
+            <mat-chip>
+              Unread <span class="pl-4">28</span>
+            </mat-chip>
+            <mat-chip>
+              Shortlisted <span class="pl-4">28</span>
+            </mat-chip>
+            <mat-chip>
+              Rejected <span class="pl-4">28</span>
+            </mat-chip>
+          </mat-chip-list>
+        </div>
+
+
+      <div class="h-100 dashboard_main_container">
+
+        <div class="col-12 pb-5 mb-5 border-bottom">
+          <div class="row align-items-center">
+            <div class="col-1">
+              <div class="row align-items-center pb-3">
+                <div class="col-12">
+                  <img src="../../../assets/ico.png" alt="Ico">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-11">
+              <div class="row align-items-center justify-content-between pb-3">
+                <div class="col-auto mr-auto">
+                  <h4>
+                    Rishi Prabhat
+                  </h4>
+                  <p style="color: #F7503F;">
+                    <b> 4.5 </b>
+                  </p>
+                </div>
+
+                <div class="col-8 ml-auto">
+
+
+                  <mat-chip-list class="employee_skills_chips_">
+                    <mat-chip style="">
+                      <p style=""> Angular </p>
+                      <span class="" style="">7 Yrs</span>
+                    </mat-chip>
+
+                    <mat-chip style="">
+                      <p style=""> Skills </p>
+                      <span class="" style="">82%</span>
+                    </mat-chip>
+
+                    <mat-chip style="">
+                      <p style=""> Joining </p>
+                      <span class="" style="">70 Days</span>
+                    </mat-chip>
+                  </mat-chip-list>
+
+
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="offset-1 col-9">
+              <div class="row">
+                <div class="col-12 py-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos cum aliquam sunt quos. Libero
+                  accusantium, blanditiis nemo quidem debitis cum odit natus ut aperiam inventore rerum, delectus
+                  suscipit porro!
+                </div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="row ml-auto">
+                <div class="col-12">
+                  <button mat-raised-button style="border: 1px solid #4F4F4F; color: #4F4F4F;">View Profile</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <hr class="my-5"> -->
+
+
+        <div class="col-12 pb-5 mb-5 border-bottom">
+            <div class="row align-items-center">
+              <div class="col-1">
+                <div class="row align-items-center pb-3">
+                  <div class="col-12">
+                    <img src="../../../assets/ico.png" alt="Ico">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-11">
+                <div class="row align-items-center justify-content-between pb-3">
+                  <div class="col-auto mr-auto">
+                    <h4>
+                      Rishi Prabhat
+                    </h4>
+                    <p style="color: #F7503F;">
+                      <b> 4.5 </b>
+                    </p>
+                  </div>
+
+                  <div class="col-8 ml-auto">
+
+
+                    <mat-chip-list class="employee_skills_chips_">
+                      <mat-chip style="">
+                        <p style=""> Angular </p>
+                        <span class="" style="">7 Yrs</span>
+                      </mat-chip>
+
+                      <mat-chip style="">
+                        <p style=""> Skills </p>
+                        <span class="" style="">82%</span>
+                      </mat-chip>
+
+                      <mat-chip style="">
+                        <p style=""> Joining </p>
+                        <span class="" style="">70 Days</span>
+                      </mat-chip>
+                    </mat-chip-list>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="offset-1 col-9">
+                <div class="row">
+                  <div class="col-12 py-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos cum aliquam sunt quos. Libero
+                    accusantium, blanditiis nemo quidem debitis cum odit natus ut aperiam inventore rerum, delectus
+                    suscipit porro!
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="row ml-auto">
+                  <div class="col-12">
+                    <button mat-raised-button style="border: 1px solid #4F4F4F; color: #4F4F4F;">View Profile</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <p class="py-5">
+    My postings screen
+  </p>
+
+
+
+
+
+
+
+
+
+<section class="container-fluid dashboard_main_ body">
+      <div class="row">
+        <div class="col-12">
+            <div class="row align-items-center applied_role_chips">
+
+              <div class="nav_pills_top_names navpills_position_head pr-3">
+                  <h4> My Postings </h4>
+              </div>
+
+              <div class="navpills_position">
+                  <button mat-raised-button matBadge="8" matBadgePosition="after" matBadgeColor="accent">
+                    Developer
+                  </button>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="h-100 dashboard_main_container my-5">
+
+
+              <div class="row">
+                <div class="col-12 col-md-12">
+                  <h6 class="text-uppercase">
+                    amazon
+                  </h6>
+                  <div class="row">
+                    <div class="col-12 col-md-auto mr-auto">
+                      <h4 class="text-uppercase">
+                        amazon india pvt ltd
+                      </h4>
+                    </div>
+
+                    <div class="col-12 col-md-auto premium__">
+                        <button class="text-uppercase" mat-raised-button matBadgeColor="accent">
+                          Premium
+                        </button>
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+                      <div class="col-12 pb-2">
+                        <div class="location_date">
+                          <b> Hyderabad </b>
+                        </div>
+                        <div class="location_date">
+                          <b> 22nd Jan </b>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-9 pb-3 pt-1 w-75">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos cum aliquam sunt quos. Libero
+                        accusantium, blanditiis nemo quidem debitis cum odit natus ut aperiam inventore rerum, delectus
+                        suscipit porro!
+                      </div>
+
+                      <div class="col-12">
+                        <div class="row">
+
+                          <div class="col-12">
+                            <div class="course_names_" style="color: #F7503F;">
+                              <b> Angular </b>
+                            </div>
+                            <div class="course_names_" style="color: #EAEFFB;">
+                              <b> C </b>
+                            </div>
+                            <div class="course_names_" style="color: #EAEFFB;">
+                              <b> HTML </b>
+                            </div>
+                            <div class="course_names_" style="color: #F7503F;">
+                              <b> CSS </b>
+                            </div>
+                            <div class="course_names_" style="color: #F7503F;">
+                              <b> React </b>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  <div class="row mt-4">
+                    <div class="col-12 col-md-auto mr-auto">
+                      <div class="row">
+                          <div class="col-12 col-md-auto ">
+                              <button mat-raised-button class="text-uppercase" style="border: 1px solid #4F4F4F; color: #4F4F4F;">View</button>
+                          </div>
+                          <div class="col-12 col-md-auto">
+                              <button mat-raised-button class="text-uppercase" style="border: 1px solid #4F4F4F; color: #4F4F4F;">Delete</button>
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-auto">
+                        <div class="row">
+                          <div class="col-12">
+                            Share (social icons)
+                          </div>
+                        </div>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="h-100 dashboard_main_container my-5">
+
+
+                <div class="row">
+                  <div class="col-12 col-md-12">
+                    <h6 class="text-uppercase">
+                      amazon
+                    </h6>
+                    <div class="row">
+                      <div class="col-12 col-md-auto mr-auto">
+                        <h4 class="text-uppercase">
+                          amazon india pvt ltd
+                        </h4>
+                      </div>
+
+                      <div class="col-12 col-md-auto premium__">
+                          <button class="text-uppercase" mat-raised-button matBadgeColor="accent">
+                            Premium
+                          </button>
+                      </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12 pb-2">
+                          <div class="location_date">
+                            <b> Hyderabad </b>
+                          </div>
+                          <div class="location_date">
+                            <b> 22nd Jan </b>
+                          </div>
+                        </div>
+
+                        <div class="col-12 col-md-9 pb-3 pt-1 w-75">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos cum aliquam sunt quos. Libero
+                          accusantium, blanditiis nemo quidem debitis cum odit natus ut aperiam inventore rerum, delectus
+                          suscipit porro!
+                        </div>
+
+                        <div class="col-12">
+                          <div class="row">
+
+                            <div class="col-12">
+                              <div class="course_names_" style="color: #F7503F;">
+                                <b> Angular </b>
+                              </div>
+                              <div class="course_names_" style="color: #EAEFFB;">
+                                <b> C </b>
+                              </div>
+                              <div class="course_names_" style="color: #EAEFFB;">
+                                <b> HTML </b>
+                              </div>
+                              <div class="course_names_" style="color: #F7503F;">
+                                <b> CSS </b>
+                              </div>
+                              <div class="course_names_" style="color: #F7503F;">
+                                <b> React </b>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="row mt-4">
+                      <div class="col-12 col-md-auto mr-auto">
+                        <div class="row">
+                            <div class="col-12 col-md-auto ">
+                                <button mat-raised-button class="text-uppercase" style="border: 1px solid #4F4F4F; color: #4F4F4F;">View</button>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <button mat-raised-button class="text-uppercase" style="border: 1px solid #4F4F4F; color: #4F4F4F;">Delete</button>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-auto">
+                          <div class="row">
+                            <div class="col-12">
+                              Share (social icons)
+                            </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+
+
+      </div>
+</section>

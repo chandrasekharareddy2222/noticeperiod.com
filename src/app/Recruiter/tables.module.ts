@@ -142,7 +142,7 @@ export function highlightJsFactory(): any {
 
   exports: [
     ]
-      
+
 })
 export class TablesModule { }
 
